@@ -1,0 +1,42 @@
+{
+  "name": "play-skilltree",
+  "version": "0.0.0",
+  "description": "growing skilltree of workshops and codecamps",
+  "main": "src/play-skilltree.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --dir . --title $npm_package_name --force-default-index --ssl --live --open",
+    "build": "browserify demo/demo.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereum-play/play-skilltree.git"
+  },
+  "keywords": [
+    "workshop",
+    "workshops",
+    "workshopping",
+    "codecamp",
+    "codecamps",
+    "skiltree",
+    "curriculum",
+    "course",
+    "courses",
+    "lesson",
+    "lessons"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethereum-play/play-skilltree/issues"
+  },
+  "homepage": "https://github.com/ethereum-play/play-skilltree#readme",
+  "devDependencies": {
+    "budo": "^11.6.2"
+  },
+  "dependencies": {
+    "bel": "^6.0.0",
+    "csjs-inject": "^1.0.1",
+    "skilltree.js": "^0.5.0",
+    "url-registry": "0.0.2"
+  }
+}
