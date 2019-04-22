@@ -25,20 +25,33 @@ setTimeout(async () => {
   })
   document.body.appendChild(bel`<div class=${css.skilltreepage}>
     <h1 class=${css.title}> solidity skilltree </h1>
-    ${element}
+    <span class=${css.container}>
+    <span style="position: relative;">${element}</span>
+    </span>
   </div>`)
 }, 0)
 const css = csjs`
 .skilltreepage {
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
   width: 100vw;
   color: white;
   background-color: #21252b;
   margin: 0;
+}
+.container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 .title {
   color: white;
