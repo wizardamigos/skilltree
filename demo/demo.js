@@ -1,11 +1,53 @@
 const skilltree = require('../')
+const bel = require('bel')
+const csjs = require('csjs-inject')
+
+document.title = 'play skilltree'
+
+const style = document.createElement('style')
+style.textContent = [
+  '*, *:before, *:after { box-sizing: inherit; }',
+  'body { margin: 0; height: 100vh; min-height: 100vh; }',
+].join('\n')
+document.head.appendChild(style)
 
 setTimeout(async () => {
   // const element = await skilltree(dag_data)
   const element = await skilltree()
-  document.body.appendChild(element)
+  const { innerHeight, innerWidht } = window
+  const scale = innerHeight / (1.5*480)
+  const id = setInterval(() => {
+    var svg = element.children[0]
+    if (!svg) return
+    svg.style.transform = `scale(${scale})`
+    clearInterval(id)
+  })
+  document.body.appendChild(bel`<div class=${css.skilltreepage}>
+    <h1 class=${css.title}> solidity skilltree </h1>
+    ${element}
+  </div>`)
 }, 0)
-
+const css = csjs`
+.skilltreepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: #21252b;
+  margin: 0;
+}
+.title {
+  color: white;
+  background-color: rgba(30, 30, 30, 0.6);
+  font-size: 50px;
+  font-family: mono;
+  font-weight: 900;
+  padding: 10px;
+}
+`
 const dag_data = [
   {
     id: '0',

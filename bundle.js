@@ -1,12 +1,54 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 const skilltree = require('../')
+const bel = require('bel')
+const csjs = require('csjs-inject')
+
+document.title = 'play skilltree'
+
+const style = document.createElement('style')
+style.textContent = [
+  '*, *:before, *:after { box-sizing: inherit; }',
+  'body { margin: 0; height: 100vh; min-height: 100vh; }',
+].join('\n')
+document.head.appendChild(style)
 
 setTimeout(async () => {
   // const element = await skilltree(dag_data)
   const element = await skilltree()
-  document.body.appendChild(element)
+  const { innerHeight, innerWidht } = window
+  const scale = innerHeight / (1.5*480)
+  const id = setInterval(() => {
+    var svg = element.children[0]
+    if (!svg) return
+    svg.style.transform = `scale(${scale})`
+    clearInterval(id)
+  })
+  document.body.appendChild(bel`<div class=${css.skilltreepage}>
+    <h1 class=${css.title}> solidity skilltree </h1>
+    ${element}
+  </div>`)
 }, 0)
-
+const css = csjs`
+.skilltreepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: #21252b;
+  margin: 0;
+}
+.title {
+  color: white;
+  background-color: rgba(30, 30, 30, 0.6);
+  font-size: 50px;
+  font-family: mono;
+  font-weight: 900;
+  padding: 10px;
+}
+`
 const dag_data = [
   {
     id: '0',
@@ -75,7 +117,7 @@ const dag_data = [
   },
 ]
 
-},{"../":1111}],2:[function(require,module,exports){
+},{"../":1111,"bel":3,"csjs-inject":6}],2:[function(require,module,exports){
 var trailingNewlineRegex = /\n[\s]+$/
 var leadingNewlineRegex = /^\n[\s]+/
 var trailingSpaceRegex = /[\s]+$/
