@@ -10,18 +10,16 @@ var db
 module.exports = playSkilltrees
 
 async function playSkilltrees (data /*array of workshop URLs*/) {
-  const element = bel`<div class=${css.skilltree}></div>`
   try {
     db = await getDB()
-  } catch (e) { console.error('something went wrong') }
-  setTimeout(async () => {
     const _data = data || await db.list()
     const dag = typeof _data[0] === 'string' ?
       await crawler(_data /* @NOTE array of workshop URLs */)
       : _data
-    skilltree(element, dag)
-  }, 0)
-  return element
+    return bel`<div class=${css.skilltree}>${skilltree(dag)}</div>`
+  } catch (e) {
+    throw new Error('something went wrong')
+  }
 }
 const getDB = async () => db || await registry(`r70vo-1554993396`, () => true)
 const css = csjs`

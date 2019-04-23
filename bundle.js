@@ -130,7 +130,7 @@ const dag_data = [
   },
 ]
 
-},{"../":1111,"bel":3,"csjs-inject":6}],2:[function(require,module,exports){
+},{"../":1116,"bel":3,"csjs-inject":6}],2:[function(require,module,exports){
 var trailingNewlineRegex = /\n[\s]+$/
 var leadingNewlineRegex = /^\n[\s]+/
 var trailingSpaceRegex = /[\s]+$/
@@ -113551,8 +113551,151 @@ module.exports = function (css, options) {
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],1108:[function(require,module,exports){
+arguments[4][2][0].apply(exports,arguments)
+},{"dup":2}],1109:[function(require,module,exports){
+module.exports = [
+  'async', 'autofocus', 'autoplay', 'checked', 'controls', 'default',
+  'defaultchecked', 'defer', 'disabled', 'formnovalidate', 'hidden',
+  'ismap', 'loop', 'multiple', 'muted', 'novalidate', 'open', 'playsinline',
+  'readonly', 'required', 'reversed', 'selected'
+]
+
+},{}],1110:[function(require,module,exports){
+var hyperx = require('hyperx')
+var appendChild = require('./append-child')
+var SVG_TAGS = require('./svg-tags')
+var BOOL_PROPS = require('./bool-props')
+// Props that need to be set directly rather than with el.setAttribute()
+var DIRECT_PROPS = require('./direct-props')
+
+var SVGNS = 'http://www.w3.org/2000/svg'
+var XLINKNS = 'http://www.w3.org/1999/xlink'
+
+var COMMENT_TAG = '!--'
+
+function nanoHtmlCreateElement (tag, props, children) {
+  var el
+
+  // If an svg tag, it needs a namespace
+  if (SVG_TAGS.indexOf(tag) !== -1) {
+    props.namespace = SVGNS
+  }
+
+  // If we are using a namespace
+  var ns = false
+  if (props.namespace) {
+    ns = props.namespace
+    delete props.namespace
+  }
+
+  // If we are extending a builtin element
+  var isCustomElement = false
+  if (props.is) {
+    isCustomElement = props.is
+    delete props.is
+  }
+
+  // Create the element
+  if (ns) {
+    if (isCustomElement) {
+      el = document.createElementNS(ns, tag, { is: isCustomElement })
+    } else {
+      el = document.createElementNS(ns, tag)
+    }
+  } else if (tag === COMMENT_TAG) {
+    return document.createComment(props.comment)
+  } else if (isCustomElement) {
+    el = document.createElement(tag, { is: isCustomElement })
+  } else {
+    el = document.createElement(tag)
+  }
+
+  // Create the properties
+  for (var p in props) {
+    if (props.hasOwnProperty(p)) {
+      var key = p.toLowerCase()
+      var val = props[p]
+      // Normalize className
+      if (key === 'classname') {
+        key = 'class'
+        p = 'class'
+      }
+      // The for attribute gets transformed to htmlFor, but we just set as for
+      if (p === 'htmlFor') {
+        p = 'for'
+      }
+      // If a property is boolean, set itself to the key
+      if (BOOL_PROPS.indexOf(key) !== -1) {
+        if (String(val) === 'true') val = key
+        else if (String(val) === 'false') continue
+      }
+      // If a property prefers being set directly vs setAttribute
+      if (key.slice(0, 2) === 'on' || DIRECT_PROPS.indexOf(key) !== -1) {
+        el[p] = val
+      } else {
+        if (ns) {
+          if (p === 'xlink:href') {
+            el.setAttributeNS(XLINKNS, p, val)
+          } else if (/^xmlns($|:)/i.test(p)) {
+            // skip xmlns definitions
+          } else {
+            el.setAttributeNS(null, p, val)
+          }
+        } else {
+          el.setAttribute(p, val)
+        }
+      }
+    }
+  }
+
+  appendChild(el, children)
+  return el
+}
+
+function createFragment (nodes) {
+  var fragment = document.createDocumentFragment()
+  for (var i = 0; i < nodes.length; i++) {
+    if (typeof nodes[i] === 'string') nodes[i] = document.createTextNode(nodes[i])
+    fragment.appendChild(nodes[i])
+  }
+  return fragment
+}
+
+module.exports = hyperx(nanoHtmlCreateElement, {
+  comments: true,
+  createFragment: createFragment
+})
+module.exports.default = module.exports
+module.exports.createElement = nanoHtmlCreateElement
+
+},{"./append-child":1108,"./bool-props":1109,"./direct-props":1111,"./svg-tags":1112,"hyperx":1105}],1111:[function(require,module,exports){
+module.exports = [
+  'indeterminate'
+]
+
+},{}],1112:[function(require,module,exports){
+module.exports = [
+  'svg', 'altGlyph', 'altGlyphDef', 'altGlyphItem', 'animate', 'animateColor',
+  'animateMotion', 'animateTransform', 'circle', 'clipPath', 'color-profile',
+  'cursor', 'defs', 'desc', 'ellipse', 'feBlend', 'feColorMatrix',
+  'feComponentTransfer', 'feComposite', 'feConvolveMatrix',
+  'feDiffuseLighting', 'feDisplacementMap', 'feDistantLight', 'feFlood',
+  'feFuncA', 'feFuncB', 'feFuncG', 'feFuncR', 'feGaussianBlur', 'feImage',
+  'feMerge', 'feMergeNode', 'feMorphology', 'feOffset', 'fePointLight',
+  'feSpecularLighting', 'feSpotLight', 'feTile', 'feTurbulence', 'filter',
+  'font', 'font-face', 'font-face-format', 'font-face-name', 'font-face-src',
+  'font-face-uri', 'foreignObject', 'g', 'glyph', 'glyphRef', 'hkern', 'image',
+  'line', 'linearGradient', 'marker', 'mask', 'metadata', 'missing-glyph',
+  'mpath', 'path', 'pattern', 'polygon', 'polyline', 'radialGradient', 'rect',
+  'set', 'stop', 'switch', 'symbol', 'text', 'textPath', 'title', 'tref',
+  'tspan', 'use', 'view', 'vkern'
+]
+
+},{}],1113:[function(require,module,exports){
 const faker = require('faker')
 const _ = require('lodash')
+const html = require('nanohtml')
+const csjs = require('csjs')
 
 const width = 400
 const height = 400
@@ -113828,9 +113971,23 @@ async function start(rootElemntName, dag_data, id) {
   //   .attr('fill', 'white')
 }
 
-module.exports = start
+const css = csjs`
+  .skilltree {
+    height: 100%;
+    width: 100%;
+  }`
 
-},{"d3":55,"d3-dag":30,"faker":56,"lodash":1107}],1109:[function(require,module,exports){
+function index(data, id) {
+  const element = html`
+    <div class=${css.skilltree}></div>
+  `
+  start(element, data, id)
+  return element
+}
+
+module.exports = index
+
+},{"csjs":9,"d3":55,"d3-dag":30,"faker":56,"lodash":1107,"nanohtml":1110}],1114:[function(require,module,exports){
 const _cors = url => `https://cors-anywhere.herokuapp.com/${url}`
 const _postURL = id => `http://ptsv2.com/t/${id}/post`
 const _get_registryURL = id => `http://ptsv2.com/t/${id}`
@@ -114066,7 +114223,7 @@ async function registry (name, validate, ttl = default_ttl) {
   }
 }
 
-},{}],1110:[function(require,module,exports){
+},{}],1115:[function(require,module,exports){
 const cors = 'https://cors-anywhere.herokuapp.com/'
 const absoluteURLregex = /(?:^[a-z][a-z0-9+.-]*:|\/\/)/
 
@@ -114158,7 +114315,7 @@ async function crawlworkshop (data) {
   }, ...needs, ...unlocks]
 }
 
-},{}],1111:[function(require,module,exports){
+},{}],1116:[function(require,module,exports){
 const skilltree = require('skilltree.js')
 const bel = require('bel')
 const csjs = require('csjs-inject')
@@ -114171,18 +114328,16 @@ var db
 module.exports = playSkilltrees
 
 async function playSkilltrees (data /*array of workshop URLs*/) {
-  const element = bel`<div class=${css.skilltree}></div>`
   try {
     db = await getDB()
-  } catch (e) { console.error('something went wrong') }
-  setTimeout(async () => {
     const _data = data || await db.list()
     const dag = typeof _data[0] === 'string' ?
       await crawler(_data /* @NOTE array of workshop URLs */)
       : _data
-    skilltree(element, dag)
-  }, 0)
-  return element
+    return bel`<div class=${css.skilltree}>${skilltree(dag)}</div>`
+  } catch (e) {
+    throw new Error('something went wrong')
+  }
 }
 const getDB = async () => db || await registry(`r70vo-1554993396`, () => true)
 const css = csjs`
@@ -114195,4 +114350,4 @@ const css = csjs`
   width: 100%;
 }`
 
-},{"bel":3,"crawl-workshops":1110,"csjs-inject":6,"skilltree.js":1108,"url-registry":1109}]},{},[1]);
+},{"bel":3,"crawl-workshops":1115,"csjs-inject":6,"skilltree.js":1113,"url-registry":1114}]},{},[1]);

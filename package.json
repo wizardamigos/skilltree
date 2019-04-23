@@ -37,7 +37,7 @@
   "dependencies": {
     "bel": "^6.0.0",
     "csjs-inject": "^1.0.1",
-    "skilltree.js": "^0.5.0",
+    "skilltree.js": "^0.6.1",
     "url-registry": "0.0.2"
   }
 }
