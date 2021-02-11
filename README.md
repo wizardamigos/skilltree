@@ -404,7 +404,6 @@ Now, go get started. And most imporantly, enjoy the adventure.
 |[Decentralized social networks](https://medium.com/decentralized-web/decentralized-social-networks-e5a7a2603f53)| basic |
 |[P2P ecosystem review](https://ipfs.io/ipfs/QmdFrru4PyHzXGZztEPnYToBR3QovD7fkC1HSyty22LzfD)| basic |
 |[Working offline as a JavaScript developer](https://github.com/wizardamigos/app/blob/master/curriculum/newLessons/workingOffline.md)| intermediate |
-|[NodeUp Podcast](http://nodeup.com/sixtynine)| intermediate |
 |[Mesh networking](https://www.youtube.com/watch?v=tYLU755T6_I)| advanced |
 
 ### DAT ECOSYSTEM
@@ -412,7 +411,6 @@ Now, go get started. And most imporantly, enjoy the adventure.
 **HYPERCORE**
 | **Title** | **Level** |
 |:-----|:-----:|
-|[DAT](https://github.com/datproject/docs/blob/master/papers/dat-paper.pdf)| advanced |
 [Making stuff with Dat SDK (Hyper SDK)](https://www.youtube.com/watch?v=HyHk4aImd_I&list=PL7sG5SCUNyeYx8wnfMOUpsh7rM_g0w_cu&index=20) | intermediate |
 |[Dat/Hyper workshop](https://giters.com/RangerMauve/dat-workshop)| intermediate |
 |[Hypercore protocol overview (EN/JP)](https://gigazine.net/gsc_news/en/20210116-hypercore-protocol/)||
