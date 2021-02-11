@@ -1,14 +1,4 @@
-# skilltree
-
-http://wizardamigos.github.io/skilltree
-
-## `@todo`
-* [ ] update resources listed below
-* [ ] turn resources listed below into workshops added to the skilltree
-
----
-
-                                                     SKILL TREE
+                                                     # SKILL TREE
                                             RESOURCES FOR LEARNING JAVASCRIPT
 
 
@@ -16,16 +6,16 @@ http://wizardamigos.github.io/skilltree
 
 ## Tips before you get started
 
-Some of the content in the tutorials above may be a bit outdated. Tooling and styles change a bit over time, but don't worry. If some link doesn't work, just ping us in the [support chat](https://discord.gg/jhnf42x3WC) and we'll help you find a replacement. Some importants tools we recommend are CodeSandbox and CodePen.
-
-Now, go get started. And most imporantly, enjoy the adventure.
-
 | **Title** | **Level** |
 |:-----|:-----:|
 |[Beginner tutorial](https://www.youtube.com/watch?v=1EDG8-hgo6w&list=PLbtP2pUMT_hukdtCayfrk592awflW5GEe)| basic |
 |[Build a portfolio](https://www.youtube.com/playlist?list=PLbtP2pUMT_hvANJ-b49tp88sOkVLSOkcq)| basic |
 |[Build a quizz app](https://www.youtube.com/watch?v=qY6AkT3DCBY&list=PLbtP2pUMT_huBADZzKcjJ70x9DBCJzpEN)| basic |
 |[How to use CodePen for building simple projects](https://github.com/wizardamigos/service/blob/master/curriculum/newLessons/codepen.md)| basic |
+
+Some of the content in the tutorials above may be a bit outdated. Tooling and styles change a bit over time, but don't worry. If some link doesn't work, just ping us in the [support chat](https://discord.gg/jhnf42x3WC) and we'll help you find a replacement. Some importants tools we recommend are CodeSandbox and CodePen.
+
+Now, go get started. And most imporantly, enjoy the adventure.
 
 ---
 
