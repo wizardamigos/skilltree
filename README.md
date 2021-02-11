@@ -9,8 +9,8 @@
 | **Title** | **Level** |
 |:-----|:-----:|
 |[Beginner tutorial](https://www.youtube.com/watch?v=1EDG8-hgo6w&list=PLbtP2pUMT_hukdtCayfrk592awflW5GEe)| basic |
-|[Build a portfolio](https://www.youtube.com/playlist?list=PLbtP2pUMT_hvANJ-b49tp88sOkVLSOkcq)| basic |
-|[Build a quizz app](https://www.youtube.com/watch?v=qY6AkT3DCBY&list=PLbtP2pUMT_huBADZzKcjJ70x9DBCJzpEN)| basic |
+|[Build a portfolio](https://www.youtube.com/playlist?list=PLbtP2pUMT_hvANJ-b49tp88sOkVLSOkcq)| basic/intermediate |
+|[Build a quizz app](https://www.youtube.com/watch?v=qY6AkT3DCBY&list=PLbtP2pUMT_huBADZzKcjJ70x9DBCJzpEN)| intermediate |
 |[How to use CodePen for building simple projects](https://github.com/wizardamigos/service/blob/master/curriculum/newLessons/codepen.md)| basic |
 
 Some of the content in the tutorials above may be a bit outdated. Tooling and styles change a bit over time, but don't worry. If some link doesn't work, just ping us in the [support chat](https://discord.gg/jhnf42x3WC) and we'll help you find a replacement. Some importants tools we recommend are CodeSandbox and CodePen.
@@ -383,8 +383,10 @@ Now, go get started. And most imporantly, enjoy the adventure.
 ### STATE MACHINES
 | **Title** | **Level** |
 |:-----|:-----:|
-|[XState workshop](https://www.youtube.com/watch?v=uRfQJJArZEg)| intermediate |
-|[XState Drag&Drop example code](https://github.com/ninabreznik/drag-drop-xstate)| intermediate |
+|[XState workshop](https://www.youtube.com/watch?v=uRfQJJArZEg)| advanced |
+|[XState Drag&Drop example code](https://github.com/ninabreznik/drag-drop-xstate)| advanced |
+
+---
 
 ## FULL PROGRAM by Free Code Camp
 |**Title**|**Level**|
