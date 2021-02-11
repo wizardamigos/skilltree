@@ -1,4 +1,4 @@
-                                                     # SKILL TREE
+                                                     SKILL TREE
                                             RESOURCES FOR LEARNING JAVASCRIPT
 
 
