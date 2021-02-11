@@ -415,7 +415,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 |[DAT](https://github.com/datproject/docs/blob/master/papers/dat-paper.pdf)| advanced |
 [Making stuff with Dat SDK (Hyper SDK)](https://www.youtube.com/watch?v=HyHk4aImd_I&list=PL7sG5SCUNyeYx8wnfMOUpsh7rM_g0w_cu&index=20) | intermediate |
 |[Dat/Hyper workshop](https://giters.com/RangerMauve/dat-workshop)| intermediate |
-|Hyper protocol guides](https://hypercore-protocol.org/guides/)| advanced |
+|[Hyper protocol guides](https://hypercore-protocol.org/guides/)| advanced |
 
 **KAPPA-DB**
 | **Title** | **Level** |
