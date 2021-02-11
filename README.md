@@ -13,11 +13,20 @@
 |[Build a quizz app](https://www.youtube.com/watch?v=qY6AkT3DCBY&list=PLbtP2pUMT_huBADZzKcjJ70x9DBCJzpEN)| intermediate |
 |[How to use CodePen for building simple projects](https://github.com/wizardamigos/service/blob/master/curriculum/newLessons/codepen.md)| basic |
 
-Some of the content in the tutorials above may be a bit outdated. Tooling and styles change a bit over time, but don't worry. If some link doesn't work, just ping us in the [support chat](https://discord.gg/jhnf42x3WC) and we'll help you find a replacement. Some importants tools we recommend are CodeSandbox and CodePen.
+Some of the content in the tutorials above may be a bit outdated. Tooling and styles change a bit over time, but don't worry. If some link doesn't work, just ping us in the [support chat](https://discord.gg/jhnf42x3WC) and we'll help you find a replacement. Some importants tools we recommend are CodeSandbox and CodePen Playgrounds.
 
 Now, go get started. And most imporantly, enjoy the adventure.
 
 ---
+
+### Tools
+
+| **Title** | **Level** |
+|:-----|:-----:|
+|[CodePen](https://www.youtube.com/watch?v=1EDG8-hgo6w&list=PLbtP2pUMT_hukdtCayfrk592awflW5GEe)| basic |
+|[Code playgrounds in the browser](https://areknawo.com/codesandbox-vs-codepen-javascript-playgrounds-compared/)| basic|
+|[Code editors](https://javascript.info/code-editors)| basic |
+|||
 
 # HTML
 
@@ -181,6 +190,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 | **Title** | **Level** |
 |:-----|:-----:|
 |[Intro](https://www.w3schools.com/js/js_intro.asp)| basic |
+|[Introduction to Javascript](https://javascript.info/intro)| basic |
 
 ### JAVASCRIPT SYNTAX RULES
 | **Title** | **Level** |
