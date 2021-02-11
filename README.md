@@ -14,14 +14,6 @@ http://wizardamigos.github.io/skilltree
 
 # Lessons & Exercises
 
-## Full program by Free Code Camp
-|**Title**|**Level**|
-|:-----|:-----:|
-|[Responsive Web Design](https://www.freecodecamp.org/)| beginner |
-|[Javascript Algorithms and Data structures](https://www.freecodecamp.org/)| beginner |
-
----
-
 ## Tips
 
 | **Title** | **Level** |
@@ -30,9 +22,6 @@ http://wizardamigos.github.io/skilltree
 |[Methodology](https://github.com/wizardamigos/skilltree/issues/3)| basic |
 
 ---
-
-**In addition** we recommend you to check out the following resources:
-
 
 # HTML
 
@@ -394,6 +383,18 @@ http://wizardamigos.github.io/skilltree
 |:-----|:-----:|
 |[JavaScript JSON](https://www.w3schools.com/js/js_json.asp)| intermediate |
 |[Working with JSON data](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)| intermediate |
+
+### STATE MACHINES
+| **Title** | **Level** |
+|:-----|:-----:|
+|[XState workshop](https://www.youtube.com/watch?v=uRfQJJArZEg)| intermediate |
+|[XState Drag&Drop example code](https://github.com/ninabreznik/drag-drop-xstate)| intermediate |
+
+## FULL PROGRAM by Free Code Camp
+|**Title**|**Level**|
+|:-----|:-----:|
+|[Responsive Web Design](https://www.freecodecamp.org/)| beginner |
+|[Javascript Algorithms and Data structures](https://www.freecodecamp.org/)| beginner |
 
 ---
 
