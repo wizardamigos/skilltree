@@ -26,7 +26,13 @@ Now, go get started. And most imporantly, enjoy the adventure.
 |[CodePen](https://www.youtube.com/watch?v=1EDG8-hgo6w&list=PLbtP2pUMT_hukdtCayfrk592awflW5GEe)| basic |
 |[Code playgrounds in the browser](https://areknawo.com/codesandbox-vs-codepen-javascript-playgrounds-compared/)| basic|
 |[Code editors](https://javascript.info/code-editors)| basic |
-|||
+
+### Podcasts/Media
+
+| **Title** | **Level** |
+|:-----|:-----:|
+|[Fun, fun, function](https://www.youtube.com/c/funfunfunction/videos)| basic/intermediate |
+|[Speakeasy](https://www.youtube.com/playlist?list=PL1y1iaEtjSYitzKXzrE8wcQvEsw9dImn0)| advanced |
 
 # HTML
 
@@ -460,9 +466,13 @@ Now, go get started. And most imporantly, enjoy the adventure.
 | [Ethereum dev wiki](https://github.com/ethereum/wiki/wiki) | advanced |
 
 ### SUBSTRATE FRAMEWORK
-
+| **Title** | **Level** |
+|:-----|:-----:|
 |[Substrate docs (rust)](https://substrate.dev/docs/en/)| intermediate |
-
+|[Rust language](https://doc.rust-lang.org/book/)| intermediate |
+|[Substrate tutorials](https://substrate.dev/en/tutorials)| intermediate |
+|[Substrate Recipes](https://substrate.dev/recipes/)| intermediate |
+|[Substrate dev hub](https://substrate.dev/docs/en/)| intermediate |
 ---
 # BROWSER
 
