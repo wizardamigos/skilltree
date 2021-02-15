@@ -588,3 +588,19 @@ Now, go get started. And most imporantly, enjoy the adventure.
 |[How to run a project locally](https://github.com/wizardamigos/service/blob/master/curriculum/newLessons/newProject.md)| intermediate |
 |[Choo - little deeper knowledge about frontend coding](https://avocado.choo.io/)| intermediate |
 |[P2P Workshop](https://mafintosh.github.io/p2p-workshop/build/01.html)| advanced |
+
+---
+
+# SELF EMPLOYEMNT
+
+### OPENING A COMPANY
+| **Title** | **Level** |
+|:-----|:-----:|
+|Limited company formation](https://www.gov.uk/limited-company-formation)| intermediate |
+|[Setup a limited company: step by step formation](https://www.gov.uk/set-up-limited-company)| intermediate |
+
+
+### FUNRAISING
+| **Title** | **Level** |
+|:-----|:-----:|
+|Should we fundraise through Open Collective](https://hackmd.io/h_P9j-UmSX66q0EdNPpGXg)| intermediate |
