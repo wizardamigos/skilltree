@@ -407,7 +407,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 ## FULL PROGRAM by Free Code Camp
 |**Title**|**Level**|
 |:-----|:-----:|
-|[Responsive Web Design](https://www.freecodecamp.org/)| beginner |
+|[Responsive Web Design](https://www.freecodecamp.org/)| basic |
 |[Javascript Algorithms and Data structures](https://www.freecodecamp.org/)| beginner |
 
 ---
@@ -441,7 +441,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 ### SSB
 | **Title** | **Level** |
 |:-----|:-----:|
-|[Intro](https://coolguy.website/writing/the-future-will-be-technical/index.html)| beginner |
+|[Intro](https://coolguy.website/writing/the-future-will-be-technical/index.html)| basic |
 |[Scuttlebutt](https://www.scuttlebutt.nz/guides/cli-first-steps.html)| intermediate |
 |[Guide](https://github.com/nichoth/ssb-survival-guide) | advanced |
 |[Scuttlebot](https://github.com/ssbc/scuttlebot)| advanced |
@@ -459,9 +459,9 @@ Now, go get started. And most imporantly, enjoy the adventure.
 ### SMART CONTRACTS (ethereum based)
 | **Title** | **Level** |
 |:-----|:-----:|
-| [Cryptozombie Tutorial](https://cryptozombies.io/) | beginner |
-| [MetaMask Browser Wallet - tool](https://metamask.io) | beginner |
-| [Workshop: ABC of writing Ethereum smart contracts](https://www.youtube.com/watch?v=GLCpykkb7Oc) | beginner/intermediate |
+| [Cryptozombie Tutorial](https://cryptozombies.io/) | basic |
+| [MetaMask Browser Wallet - tool](https://metamask.io) | basic |
+| [Workshop: ABC of writing Ethereum smart contracts](https://www.youtube.com/watch?v=GLCpykkb7Oc) | basic/intermediate |
 |[Solidity docs](https://docs.soliditylang.org/en/v0.7.4/)| intermediate |
 | [Ethereum dev wiki](https://github.com/ethereum/wiki/wiki) | advanced |
 
@@ -591,7 +591,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 
 ---
 
-# SELF EMPLOYEMNT
+# SELF EMPLOYEMENT
 
 ### OPENING A COMPANY
 | **Title** | **Level** |
@@ -600,7 +600,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 |[Setup a limited company: step by step formation](https://www.gov.uk/set-up-limited-company)| intermediate |
 
 
-### FUNRAISING
+### FUN(D)RAISING
 | **Title** | **Level** |
 |:-----|:-----:|
 |Should we fundraise through Open Collective](https://hackmd.io/h_P9j-UmSX66q0EdNPpGXg)| intermediate |
