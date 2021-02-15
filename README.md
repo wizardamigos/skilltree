@@ -596,7 +596,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 ### OPENING A COMPANY
 | **Title** | **Level** |
 |:-----|:-----:|
-|Limited company formation](https://www.gov.uk/limited-company-formation)| intermediate |
+|[Limited company formation](https://www.gov.uk/limited-company-formation)| intermediate |
 |[Setup a limited company: step by step formation](https://www.gov.uk/set-up-limited-company)| intermediate |
 
 
