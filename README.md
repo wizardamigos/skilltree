@@ -1,5 +1,5 @@
                                                      SKILL TREE
-                                            RESOURCES FOR LEARNING JAVASCRIPT
+                                            RESOURCES FOR LEARNING JAVASCRIPT, P2P, SELF EMPLOYMENT and more 
 
 
 # Lessons & Exercises
