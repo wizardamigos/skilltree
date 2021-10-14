@@ -192,10 +192,22 @@ Now, go get started. And most imporantly, enjoy the adventure.
 
 # JAVASCRIPT
 
-### Games
+### Special tutorials
+
 | **Title** | **Level** |
 |:-----|:-----:|
+|[Beginner javascript](https://beginnerjavascript.com/)| beginner |
+|[The modern javascript](https://javascript.info/)| beginner |
 |[Code Combat - learn how to code by playing a game](https://www.codecombat.com)| basic |
+|[Javascript for Designers](https://www.superhi.com/courses/javascript-for-designers)| beginner |
+|[Javascript - understanding the weird parts](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)| intermediate |
+|[Eloquent JavaScript: A Modern Introduction to Programming](https://eloquentjavascript.net/)| beginner |
+|[The complete javascript course - paid course](https://www.udemy.com/course/the-complete-javascript-course/)| beginner |
+|[Explore the Javascript Universe](https://justjavascript.com/)| intermediate |
+|[Javascript for Web Designers - paid](https://abookapart.com/products/javascript-for-web-designers)| beginner |
+|[Mozilla Developer Network Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)| beginner |
+|[Introduction to Javascript](https://www.youtube.com/watch?v=zjVFuft1O2Y)||
+
 
 ### Introduction
 | **Title** | **Level** |
