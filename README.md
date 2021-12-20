@@ -1,6 +1,7 @@
                                                      SKILL TREE
                               RESOURCES FOR LEARNING JAVASCRIPT, P2P, SELF EMPLOYMENT and more 
 
+List of resources, recommended by our Wizard Amigos learners:
 
 # Lessons & Exercises
 
