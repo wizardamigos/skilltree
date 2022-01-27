@@ -176,6 +176,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 |[A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)| intermediate |
 |[Flexbox game tutorial](http://flexboxfroggy.com/)| intermediate |
 |[CSS Grid](http://cssgridgarden.com/)| intermediate |
+|[Grid by example](https://gridbyexample.com/examples/)| basic |
 
 ### ANIMATIONS
 | **Title** | **Level** |
