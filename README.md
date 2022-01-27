@@ -197,6 +197,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 
 | **Title** | **Level** |
 |:-----|:-----:|
+|[30 Day Vanilla JS Challenge](https://github.com/wesbos/JavaScript30)| intermediate |
 |[Beginner javascript](https://beginnerjavascript.com/)| beginner |
 |[The modern javascript](https://javascript.info/)| beginner |
 |[Code Combat - learn how to code by playing a game](https://www.codecombat.com)| basic |
