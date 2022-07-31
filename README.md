@@ -191,23 +191,7 @@ Now, go get started. And most imporantly, enjoy the adventure.
 
 # JAVASCRIPT
 
-### Special tutorials
-
-| **Title** | **Level** |
-|:-----|:-----:|
-|[30 Day Vanilla JS Challenge](https://github.com/wesbos/JavaScript30)| intermediate |
-|[Beginner javascript](https://beginnerjavascript.com/)| beginner |
-|[The modern javascript](https://javascript.info/)| beginner |
-|[Code Combat - learn how to code by playing a game](https://www.codecombat.com)| basic |
-|[Javascript for Designers](https://www.superhi.com/courses/javascript-for-designers)| beginner |
-|[Javascript - understanding the weird parts](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)| intermediate |
-|[Eloquent JavaScript: A Modern Introduction to Programming](https://eloquentjavascript.net/)| beginner |
-|[The complete javascript course - paid course](https://www.udemy.com/course/the-complete-javascript-course/)| beginner |
-|[Explore the Javascript Universe](https://justjavascript.com/)| intermediate |
-|[Javascript for Web Designers - paid](https://abookapart.com/products/javascript-for-web-designers)| beginner |
-|[Mozilla Developer Network Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)| beginner |
-|[Introduction to Javascript](https://www.youtube.com/watch?v=zjVFuft1O2Y)||
-
+### Other tutorials
 
 ### Introduction
 | **Title** | **Level** |
@@ -591,17 +575,26 @@ Now, go get started. And most imporantly, enjoy the adventure.
 
 | **Title** | **Level** |
 |:-----|:-----:|
+|[Beginner javascript](https://beginnerjavascript.com/)| basic |
+|[The modern javascript](https://javascript.info/)| basic |
+|[Code Combat - learn how to code by playing a game](https://www.codecombat.com)| basic |
+|[Eloquent JavaScript: A Modern Introduction to Programming](https://eloquentjavascript.net/)| basic |
+|[Mozilla Developer Network Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)| basic |
+|[Introduction to Javascript](https://www.youtube.com/watch?v=zjVFuft1O2Y)|basic|
 |[basic media query](http://requirebin.com/?gist=d84bf220c762e5d0162dbbbe1231eec1)| basic |
-|[How to do css grid layouts](https://codesandbox.io/s/oqj25z0389)| intermediate |
 |[How to spin things](https://codepen.io/ninabreznik/pen/eRGqGw)| basic |
-|[Funky animated cube](https://codepen.io/serapath/pen/mBKvqo)| intermediate |
 |[E-business card](https://codepen.io/ninabreznik/pen/bWaOqb)| basic |
+|[Wizard Logo SVG](https://codepen.io/ninabreznik/pen/VbQJWK)| basic |
+|[Attach a file](https://codepen.io/serapath/pen/MmrjOm?editors=0010)| basic |
+|[Javascript - understanding the weird parts](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)| intermediate |
+|[30 Day Vanilla JS Challenge](https://github.com/wesbos/JavaScript30)| intermediate |
+|[Explore the Javascript Universe](https://justjavascript.com/)| intermediate |
+|[How to do css grid layouts](https://codesandbox.io/s/oqj25z0389)| intermediate |
+|[Funky animated cube](https://codepen.io/serapath/pen/mBKvqo)| intermediate |
 |[Portfolio page](https://codepen.io/ninabreznik/pen/OmQYdb)| intermediate |
 |[Quiz app](https://codepen.io/ninabreznik/pen/ybvWdE)| intermediate |
 |[Random Names Color Box Gallery](https://codepen.io/serapath/pen/dWXBNR?editors=0010)| intermediate |
-|[Wizard Logo SVG](https://codepen.io/ninabreznik/pen/VbQJWK)| basic |
 |[SVG Graph](https://codepen.io/pepebecker/pen/YQNNYv?editors=0010)| intermediate |
-|[Attach a file](https://codepen.io/serapath/pen/MmrjOm?editors=0010)| basic |
 |[How to run a project locally](https://github.com/wizardamigos/service/blob/master/curriculum/newLessons/newProject.md)| intermediate |
 |[Choo - little deeper knowledge about frontend coding](https://avocado.choo.io/)| intermediate |
 |[P2P Workshop](https://mafintosh.github.io/p2p-workshop/build/01.html)| advanced |
