@@ -25,10 +25,10 @@ Now, go get started. And most imporantly, enjoy the adventure.
 
 | **Title** | **Level** |
 |:-----|:-----:|
-|[CodePen](https://www.youtube.com/watch?v=1EDG8-hgo6w&list=PLbtP2pUMT_hukdtCayfrk592awflW5GEe)| basic |
-|[How to use CodePen for building simple projects](https://github.com/wizardamigos/service/blob/master/curriculum/newLessons/codepen.md)| basic |
-|[Code playgrounds in the browser](https://areknawo.com/codesandbox-vs-codepen-javascript-playgrounds-compared/)| basic|
+|[Node](https://nodejs.org/en/download/)| basic |
+|[Git](https://git-scm.com/downloads)| basic|
 |[Code editors](https://javascript.info/code-editors)| basic |
+|[How to use CodePen for building simple projects](https://github.com/wizardamigos/service/blob/master/curriculum/newLessons/codepen.md)| basic |
 
 ### Podcasts/Media
 
