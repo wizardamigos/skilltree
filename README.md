@@ -18,18 +18,15 @@ Now, go get started. And most imporantly, enjoy the adventure.
 
 | **Title** | **Level** |
 |:-----|:-----:|
-|[How to use CodePen for building simple projects](https://github.com/wizardamigos/service/blob/master/curriculum/newLessons/codepen.md)| basic |
-|[How to setup a basic JS project](https://hackmd.io/ETq17skMSgiydcT6ugRyXQ)| basic|
-|[Beginner tutorial](https://www.youtube.com/watch?v=1EDG8-hgo6w&list=PLbtP2pUMT_hukdtCayfrk592awflW5GEe)| basic |
-|[Build a portfolio](https://www.youtube.com/playlist?list=PLbtP2pUMT_hvANJ-b49tp88sOkVLSOkcq)| basic/intermediate |
-|[Build a quizz app](https://www.youtube.com/watch?v=qY6AkT3DCBY&list=PLbtP2pUMT_huBADZzKcjJ70x9DBCJzpEN)| intermediate |
-|[Hypermodular web development](https://serapath.github.io/workshop-hypermodular-webcomponents/)|intermediate/advanced|
+|[Basic web component workshop](https://youtube.com/playlist?list=PLubqJ-IuY27BQ7sDNZraRYcFWjmU3JABz)|basic|
+
 
 ### Tools
 
 | **Title** | **Level** |
 |:-----|:-----:|
 |[CodePen](https://www.youtube.com/watch?v=1EDG8-hgo6w&list=PLbtP2pUMT_hukdtCayfrk592awflW5GEe)| basic |
+|[How to use CodePen for building simple projects](https://github.com/wizardamigos/service/blob/master/curriculum/newLessons/codepen.md)| basic |
 |[Code playgrounds in the browser](https://areknawo.com/codesandbox-vs-codepen-javascript-playgrounds-compared/)| basic|
 |[Code editors](https://javascript.info/code-editors)| basic |
 
