@@ -7,9 +7,9 @@ List of resources, recommended by our Wizard Amigos learners:
 
 ## Tips before you get started
 
-Some of the content in the tutorials above may be a bit outdated. Tooling and styles change a bit over time, but don't worry. If some link doesn't work, just ping us in the [support chat](https://discord.gg/jhnf42x3WC) and we'll help you find a replacement. Some importants tools we recommend are CodeSandbox and CodePen Playgrounds.
+If you have questions or want to get notified about the new workshops, join our [community chat](https://discord.gg/jhnf42x3WC).
 
-Now, go get started. And most imporantly, enjoy the adventure.
+Enjoy your learning adventure.
 
 ---
 
