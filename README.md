@@ -16,9 +16,9 @@ Now, go get started. And most imporantly, enjoy the adventure.
 ### WizardAmigos tutorials
 
 
-| **Title** | **Level** |
-|:-----|:-----:|
-|[Basic web component workshop](https://youtube.com/playlist?list=PLubqJ-IuY27BQ7sDNZraRYcFWjmU3JABz)|basic|
+| **Title** | **Level** |**Notes**
+|:-----|:-----:|:-------|
+|[Basic web component workshop](https://youtube.com/playlist?list=PLubqJ-IuY27BQ7sDNZraRYcFWjmU3JABz)|basic|[workshop notes](https://hackmd.io/@T6Wf5EsOQKe-6wyPjJPtuw/HJxnSH_2c)
 
 
 ### Tools
